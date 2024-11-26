@@ -12,3 +12,4 @@ jobs:
       - name: "show structure"
         run: tree ./
       - run: echo "it works"
+      - run: mv target/*.jar target/app.jar
