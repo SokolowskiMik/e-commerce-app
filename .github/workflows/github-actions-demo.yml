@@ -1,1 +1,9 @@
-
+name: Hello World
+on: [push]
+jobs:
+  Hello-World:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "My first command"
+        run: echo "Mikolaj"
+  
